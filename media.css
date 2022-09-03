@@ -1,0 +1,478 @@
+
+@media (max-width: 1200px) {
+.button{
+    margin-left: 20px;
+    min-width: 300px;
+}
+.btn{
+    min-width: 200px;
+}
+    .header-title{
+        position: static;
+    }
+    .header-sup::after,
+    .header-sup::before {
+        content: none;
+    }
+    
+    .menu-items{
+        position: relative;
+    }
+    .price{
+        position: absolute;
+        
+    }
+    .price-img{
+    position: absolute;
+    bottom: 5px;
+    left: 190px;
+}
+.price-420{
+    bottom: 36px;
+    left: 215px;
+}
+.history-holder{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.history-images{
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.history-info{
+    margin: 0 auto;
+    width: 750px;
+}
+.history-desc,
+.history-title,
+.history-number{
+    width: auto;
+}
+.history-desc,
+.coment-text
+{
+    font-size: 28px;
+}
+.coment-type,
+.coment-name{
+    font-size: 32px;
+}
+.image-1 {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-right: -20px;
+}
+
+.image-2 {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-right: 30px;
+}
+
+.image-3 {
+    position: relative;
+    left: 0;
+    top: -30px;
+}
+.history{
+    margin-bottom: -40px;
+}
+.menu-img{
+    max-width: 250px;
+}
+.burger-text span{
+    display: none;
+}
+
+}
+
+@media (max-width: 1150px) {
+       .bur-menu{
+        display: block;
+    }
+
+    .bur-menu:hover{
+        cursor: pointer;
+    }
+    .nav,
+    .phone,
+    .cart{
+        display: none;
+    }
+    .header-btn{
+        margin-top: 30px;
+    }
+    .header-line{
+        justify-content: space-between;    
+    }
+    .container{
+        width: auto;
+        margin: 0 50px;
+    }
+    .cook-img{
+        width: 30%;
+    }
+    
+}
+@media (max-width:1055px) {
+    .card-row {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+    }
+    .card{
+        margin: 5px;
+        height: auto;
+    }
+    .galery-content{
+        width: auto;
+        display: block;
+    }
+    .galery-right{
+        display: none;
+    }
+    .galery-left{
+        margin: 0 auto;
+    }
+    .galery-up{
+        justify-content: center;
+    }
+    .galery-down{
+        justify-content: center;
+    }
+    .gal-img1{
+        width: 100%;
+        margin: 20px;
+    }
+    .gal-img2{
+        width: 50%;
+        margin: 20px;
+    }
+    .menu-img{
+        width: 85%;
+    }
+    .menu-btn{
+        width: 70%;
+        padding: 10px 30px;
+    }
+    .burger-image{
+        display: none;
+    }
+    .burger-text span{
+        display: inline;
+}
+}
+
+@media (max-width: 920px) {
+    .bur-menu{
+        display: block;
+        margin-right: 25px;
+        margin-top: -20px;
+    }
+    .container{
+        margin:auto 25px;
+    }
+    .history-images{
+        justify-content: center;
+        width: 90%;
+        align-items: center;
+    }
+    .image-1,
+    .image-2,
+    .image-3{
+        display: none;
+    }
+    .new-img{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .black-holder{
+        display: block;
+    }
+    .history-info{
+        width: auto;
+    }
+    .left-title,
+    .left-text,
+    .right .btn{
+        text-align: center;
+    }
+    .right{
+        margin: 60px 0 -20px;
+    }
+    .card{
+        margin: 10px;
+    }
+    .card-title{
+        font-size: 24px;
+    }
+    .card-text{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 710px) {
+    .header{
+        background: url(img/mobile-bg.jpg) no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+    .header-line .btn{
+        display: none;
+    }
+    .header-title{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .card-row{
+        align-items: center;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .card{
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    .card:last-child{
+        margin-bottom: -30px;
+    }
+    .black-block{
+        padding: 40px 0;
+    }
+    .left-title{
+        font-size: 40px;
+    }
+    .left-text{
+        font-size: 20px;
+    }
+    .right{
+        margin-bottom: 5px;
+    }
+    .dishes-title{
+        margin-bottom: 50px;
+    }
+    .burgers{
+        margin-bottom: 60px;
+    }
+    .menu-titlle{
+        color: rgb(255, 255, 255);
+        font-weight: 900;
+        font-size: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .menu-items{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    .menu-item{
+        width: 85%;
+        margin: 20px auto; 
+    }
+    .menu-img{
+        max-width: 400px;
+    }
+    .menu-item:last-child{
+        margin: 20px 0;
+    }
+    .menu-text{
+        font-size: 40px;
+    }
+    .menu-subtecst,
+    .menu-btn{
+        font-size: 24px;
+    }
+    .menu-subtecst{
+        margin-bottom: 40px;
+    }
+    .coment{
+        padding: 40px 0;
+    }
+    .coment-image{
+        margin: 40px 0;
+    }
+    .coment-text{
+        margin: 30px auto;
+    }
+    .burger-text span{
+        display: none;
+    }
+ 
+    .content-last{
+        height: 250px;
+    }
+    .footer{
+        padding: 20px 20px;
+    }
+    footer .footer-menu li a{
+        font-size: 30px;
+    }
+    .footer p{
+        font-size: 28px;
+    }
+    .gal-img1{
+        width: 85%;
+    }
+}
+
+@media (max-width:500px) {
+    .header-title{
+        font-size: 32px;
+    }
+    .header-subtitle{
+        font-size: 54px;
+    }
+    .history-title{
+        font-size: 44px;
+
+    }
+    .card-row{
+        margin-bottom: -60px;
+    }
+    .history-desc{
+        font-size: 22px;
+    }
+    .history-number{
+        margin: 20px auto;
+    }
+    .number-item{
+        margin: 10px 10px;
+        font-size: 32px;
+    }
+    .left-title{
+        font-size: 30px;
+    }
+    .left-text{
+        font-size: 18px;
+    }
+    .dishes-title,
+    .cook-title,
+    .galery-title
+    {
+        padding-top: 60px;
+        font-size: 44px;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+    .burger-text{
+        font-size: 22px;
+        text-align: center;
+    }
+    .coment-text{
+        font-size: 22px;
+    }
+    .galery-down{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gal-img2{
+        width: 75%;
+    }
+    .cook-title{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .cook-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cook-img{
+        width: 85%;
+        margin: 20px auto;
+    }
+    .last-text{
+        font-size: 36px;
+        height: 180px;
+    }
+     .footer{
+        padding: 20px 5px;
+    }
+    footer .footer-menu li a{
+        font-size: 30px;
+    }
+    .footer p{
+        display: none;
+    }
+    .kai{
+        display: block;
+        font-size: 26px;
+    }
+}
+
+@media (max-width:370px) {
+    .header-title{
+        font-size: 28px;
+    }
+    .header-subtitle{
+        font-size: 36px;
+    }
+    .header{
+        height: 60vh;
+    }
+    .header-line{
+        padding-top: 15px;
+    }
+    .header-sup{
+        font-size: 14px;
+    }
+    .history-title{
+        font-size: 36px;
+        padding-bottom: 0;
+        margin-bottom: 15px;
+    }
+    .history-desc{
+        font-size: 20px;
+    }
+    .number-item{
+        font-size: 26px;
+    }
+    .left{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .right .button{
+        margin-left: 0;
+    }
+    .menu-titlle{
+        font-size: 44px;
+    }
+    .menu-text{
+        font-size: 32px;
+    }
+    .menu-subtecst{
+        font-size: 20px;
+    }
+    .coment-text{
+        font-size: 20px;
+    }
+    .galery-title,
+    .cook-title{
+        font-size: 36px;
+    }
+    .gal-img1{
+        width: 95%;
+    }
+    .gal-img2{
+        width: 80%;
+    }
+    .last{
+        height: 200px;
+    }
+    .last-text{
+        font-size: 30px;
+        padding: 0 10px;
+    }
+    footer .footer-menu{
+        display: none;
+    }
+}
